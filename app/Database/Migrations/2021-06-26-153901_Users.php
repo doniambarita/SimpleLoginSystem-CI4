@@ -33,11 +33,9 @@ class Webinar extends Migration
 				],
 				'created_at'   => [
 					'type'           => 'DATETIME',
-					'default'        => 'current_timestamp()',
 				],
 				'updated_at'   => [
 					'type'           => 'DATETIME',
-					'default'        => 'current_timestamp()',
 				]
 				]);
 		$this->forge->addKey('id', TRUE);
